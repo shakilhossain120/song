@@ -1,0 +1,355 @@
+                /*cll*/
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.navbar-dark .navbar-toggler {
+    font-size: 16px;
+}
+.menu ul li {
+    margin-left: 0;
+    transition: .9s;
+}
+.menu ul li:hover {
+     padding-left: 40%;
+}
+.menu ul li a {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.banar-text {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.banar-text h6 {
+    font-size: 55px;
+}
+.banar-text p {
+    font-size: 11px;
+}
+.banar-text button {
+    font-size: 11px;
+}
+
+/*header emd*/
+/*about start*/
+.aboutall {
+    padding-top: 18px;
+}
+.singer-card {
+    position: initial;
+        margin-top: 0px;
+}
+.all-card {
+    background-color: #3a414f;
+    padding-top: 12px;
+}
+.singer-card {
+    margin-bottom: 13px;
+}
+.AboutTextImg h5 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.AboutText p {
+    margin-top: 30px;
+    font-size: 12px;
+}
+/*about start*/
+/*our music start*/
+.our-music-wraper {
+    background: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.our-music-h4 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+.music-text {
+    margin-top: 26px;
+    padding-bottom: 28px;
+}
+.music-text button {
+    font-size: 13px;
+}
+.music-text p {
+    margin: 10px;
+}
+/*our music end*/
+
+/*parallax start*/
+.parallax-img {
+    background-image: none;
+}
+.parallax {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*parallax start*/
+/*show time start*/
+.our-m-s {
+    background-color: #7f7f7f;
+    padding-bottom: 45px;
+}
+ .show-time h1 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 43px;
+}
+.show-time-card-body {
+    margin-top: 0px;
+}
+.show-time-card {
+    margin: 30px;
+    margin-bottom: -6px;
+}
+/*show time start*/
+/*footer start*/
+.footer-p p {
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+}
+.footer-list a {
+    font-size: 13px;
+}
+.footer-list ul {
+    font-size: 15px;
+    text-align: center;
+}
+.footr-section {
+    padding-top: 15px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+/*---------*/
+}/*coll-end*/
+/*---------*/
+
+                /*sm*/
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li {
+	transition: .9s;
+    margin-left: 0;
+}
+.menu ul li:hover {
+     padding-left: 45%;
+}
+.menu ul li a {
+    margin-left: 10px;
+    font-size: 14px;
+}
+/*header end*/
+
+/*banar start*/
+.banar-text {
+    margin-top: 80px;
+    margin-bottom: 115px;
+}
+/*banar end*/
+
+/*about start*/
+.aboutall {
+    margin-top: 50px;
+    margin-bottom: 34px;
+}
+.AboutTextImg h5 {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+.singer-card-body h4 {
+    font-size: 17px;
+    margin: 0;
+}
+.AboutText p {
+    margin-top: 43px;
+}
+.singer-card {
+    position: unset;
+    margin-top: 18px;
+}
+.container-had{
+	background-color: #383f4d;
+}
+.all-card {
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+/*our music stsrt*/
+.our-music-wraper {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    background: none;
+}
+.our-music-h4 {
+    font-size: 80px;
+        margin-top: 20px;
+    margin-bottom: 8px;
+}
+.music-text {
+    margin-top: 35px;
+    padding-bottom: 0;
+}
+/*our music end*/
+
+/*parallax start*/
+.parallax-img {
+    background-image: none;
+}
+.parallax {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*parallax start*/
+ /*show time start*/
+
+ .show-time h1 {
+    margin-top: 85px;
+}
+ .show-time-card-body h4 {
+    font-size: 15px;
+}
+ .show-time-card-body a {
+    margin-top: 51px;
+    padding: 5px 25px 5px 25px;
+    font-size: 13px;
+}
+p.card-text.date {
+    margin-top: 31px;
+}
+ /*show time start*/
+/*footer stsrt*/
+.footr-section {
+    padding-top: 26px;
+    padding-bottom: 6px;
+}
+.footer-list ul {
+    font-size: 12px;
+}
+.footer-p p {
+    font-size: 12px;
+}
+
+/*---------*/
+}/*sm-end*/
+/*---------*/
+
+                /*md*/
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.logo {
+    font-size: 25px;
+}
+.menu ul li {
+    margin-left: 13px;
+}
+.menu ul li a {
+    font-size: 13px;
+}
+/*header end*/
+/*banar start*/
+.banar-text {
+    margin-top: 95px;
+    margin-bottom: 123px;
+}
+
+/*about start*/
+.singer-card-body h4 {
+    font-size: 19px;
+}
+.AboutText p {
+    margin-top: 55px;
+    font-size: 14px;
+}
+.singer-card {
+    width: 204px;
+}
+/*about end*/
+
+/*our music start*/
+.our-music-wraper {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.our-music-h4 {
+    margin-top: 45px;
+    font-size: 60px;
+}
+/*our music end*/
+/*show time start */
+.show-time-card-body h4 {
+    font-size: 16px;
+}
+.show-time-card-body p {
+    font-size: 13px;
+}
+.show-time-card-body a {
+    margin-top: 55px;
+    padding: 5px 35px 5px 35px;
+    font-size: 13px;
+}
+/*show time end */
+
+/*---------*/
+}/*md-end*/
+/*---------*/
+                /*lg*/
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*our music start*/
+.our-music-wraper {
+    margin-right: 105px;
+}
+/*---------*/
+}/*lg-end*/
+/*---------*/
+                /*xl*/
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+/*header start*/
+.logo {
+    font-size: 40px;
+}
+.menu ul li a {
+    font-size: 25px;
+}
+/*header end*/
+/*banar start*/
+.banar-text h6 {
+    font-size: 120px;
+}
+.banar-text p {
+    font-size: 22px;
+}
+.banar-text button {
+    font-size: 20px;
+}
+/*banar end*/
+/*about start*/
+.AboutTextImg h5 {
+    font-size: 65px;
+}
+.AboutText p {
+    margin-top: 45px;
+    font-size: 21px;
+}
+/*about start*/
+
+/*our  music start*/
+.our-music-wraper {
+    margin-right: 124px;
+    margin-left: 143px;
+}
+
+
+/*---------*/
+}/*xl-end*/
+/*---------*/

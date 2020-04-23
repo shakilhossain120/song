@@ -1,0 +1,256 @@
+@font-face{
+	src:url(../fonts/Banshee.otf);
+	font-family: Banshee;
+}
+.main-body{
+	background-color: #282828;
+}
+/*header start*/
+.menu{}
+.logo{
+	font-family: Banshee;
+    font-size: 27px;
+    color: red !important;
+}
+.menu ul{}
+.menu ul li{
+	    margin-left: 20px;
+}
+.menu ul li a{}
+.menu ul li:hover {
+      background-color: #1a5b64ad;
+    border-radius: 50px;
+    transform: translate3d(0,0,0);
+}
+/*header end*/
+
+/*banar start*/
+.banarWraper{
+	background-image: url(../imges/hero-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banar-text{
+	margin-top: 128px;
+    margin-bottom: 160px;
+}
+.banar-text h6{
+	color: red;
+    font-family: Banshee;
+}
+.banar-text p{
+	color: white;
+}
+.banar-text button{
+	background-color: red;
+    border: red;
+}
+/*banar end*/
+
+
+/*about start*/
+/*About first container*/
+.aboutall{}
+.AboutTextImg{
+	background-image: url(../imges/about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: -10px;
+}
+.AboutTextImg h5{
+	text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    font-family: Banshee;
+}
+.AboutText p{
+	color: white;
+	    margin-top: 59px;
+    font-family: cursive;
+}
+.AboutText{}
+/*About secound container*/
+
+.all-card{
+	    justify-content: center;
+}
+.singer-card{
+	position: absolute;
+    z-index: 1;
+    margin-top: -65px;
+}
+.singer-card-body{
+	    background-color: black;
+	    position: relative;
+}
+.singer-card-body h4{
+	color: red;
+	
+}
+.singer-card-body p{
+	color: white;
+}
+/*about end*/
+.parallax-img{
+	background-image: url(../imges/parallaximage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+   
+}
+.parallax{
+	    padding-top: 201px;
+    padding-bottom: 201px;
+}
+
+/*our music start*/
+
+.our-music-wraper{
+	 background: black;
+    margin-right: 117px;
+    margin-left: 121px;
+    margin-top: -141px;
+}
+
+.music-hover img{
+transition: .9s;
+}
+.music-hover:hover img{
+transform: scale(.9);
+
+}
+.our-music-h4{
+	 color: white;
+    font-family: Banshee;
+    text-align: center;
+     margin-top: 60px;
+    margin-bottom: 15px;
+}
+.music-text{
+	margin-top: 35px;
+	padding-bottom: 35px;
+}
+.music-text p{
+	color: white;
+}
+.music-text button{
+	background-color: red;
+    border: red;
+}
+.music-hover img:hover{}
+
+/*our music end*/
+/*show time start*/
+.show-time-wraper {
+    background: black;
+    margin-top: 152px;
+    padding-bottom: 121px;
+}
+.our-m-s{}
+.show-time{}
+.show-time h1{
+	color: white;
+    font-family: Banshee;
+    margin-top: 150px;
+    margin-bottom: 45px;
+}
+.show-time-card{
+	position: relative;
+}
+.show-time-card-body{
+	text-align: center;
+	 position: absolute;
+	 transition: .9s;
+	 transform: scale(0);
+
+}
+.show-time-card:hover .show-time-card-body{
+	 transform: scale(1);
+	 background-color: #13849675;
+}
+.show-time-card-body h4{
+	color: white;
+    margin: 0;
+    font-size: 23px;
+}
+.show-time-card-body p{
+	color: white;
+    margin: 0;
+}
+p.card-text.date {
+    margin-top: 45px;
+}
+.show-time-card-body a{
+	background-color: red;
+    border: red;
+    margin-top: 107px;
+    padding: 5px 58px 5px 58px;
+}
+/*show time start*/
+
+/*video show start*/
+.video-wraper{margin-top: 163px;}
+.video-content{margin-top: 25px;}
+.video-content h1{
+	    color: white;  font-family: Banshee;
+}
+.video-content p{
+	    color: white;  margin: 37px 0px 46px 0px;
+}
+.video-content button{
+	    color: white;  background: red;  border: none;
+}
+.video-content .video {}
+.video-content iframe{}
+
+/*video show start*/
+
+/*contact from start*/
+.contact-wraper {
+    color: red;
+    margin-top: 98px;
+}
+.contact-wraper h2{
+	 font-size: 59px;
+    font-family: Banshee;
+    padding-bottom: 34px;
+}
+.contact-wraper a{
+	background: red;
+    color: white !important;
+    border: none;
+}
+.contact-wraper textarea{border: 1px solid red;}
+.contact-wraper input {border: 1px solid red;}
+/*contact from start*/
+
+/*location start*/
+ p iframe{    margin-top: 75px;
+    }
+/*footesr start*/
+.footr-section{
+	    background-color: black;
+    padding-top: 44px;
+    margin-top: 85px;
+    padding-bottom: 17px;
+}
+.footer-p{}
+.footer-p p{
+	color: white;
+}
+.footer-list{}
+.footer-list ul{}
+.footer-list li{}
+.footer-list a{
+	color: white;
+}
+
+
+
+
+
+
